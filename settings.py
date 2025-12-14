@@ -17,7 +17,10 @@ TITLE_IMAGE = os.path.join(ASSETS_DIR, 'title.png')
 BIRD_IMAGES = [
     os.path.join(ASSETS_DIR, 'bird1.png'),
     os.path.join(ASSETS_DIR, 'bird2.png'),
-    os.path.join(ASSETS_DIR, 'bird3.png')
+    os.path.join(ASSETS_DIR, 'bird3.png'),
+    os.path.join(ASSETS_DIR, 'bird4.png'),
+    os.path.join(ASSETS_DIR, 'bird5.png'),
+    os.path.join(ASSETS_DIR, 'bird6.png')
 ]
 
 BTN_MANUAL = os.path.join(ASSETS_DIR, 'manual_btn.png')

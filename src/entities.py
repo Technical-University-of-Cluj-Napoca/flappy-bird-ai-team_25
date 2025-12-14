@@ -6,7 +6,7 @@ from src.utils import load_image
 class Bird(pygame.sprite.Sprite):
     def __init__(self, x, y):
         pygame.sprite.Sprite.__init__(self)
-        self.images = [load_image(img, scale=1.5) for img in BIRD_IMAGES]
+        self.images = [load_image(img, scale=1.0) for img in BIRD_IMAGES]
         self.index = 0
         self.counter = 0
         self.image = self.images[self.index]
